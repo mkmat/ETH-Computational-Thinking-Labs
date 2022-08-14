@@ -90,7 +90,23 @@ Cheat Sheets: https://cheatography.com/tag/-python/, https://www.pythoncheatshee
 
     import sys
     ...
-    sys.exit(13)
+    sys.exit(13) 
+ 
+### Return and exit with a value<a name=returnexit></a>
+
+    import sys
+
+    def myfunction (a):
+        print("first (integer) argument is "+str(a))
+        b = 2*a
+        return b
+        
+    # do the following if called from the command line
+
+    if len(sys.argv)-1==1:
+        a = int(sys.argv[1])
+        b = myfunction(a)
+        sys.exit(int(b))
     
 ### Check if myfile exists from within your python script
 
@@ -99,7 +115,7 @@ Cheat Sheets: https://cheatography.com/tag/-python/, https://www.pythoncheatshee
     if os.path.isfile("myfile"):
       ...
     
-### Read and save integer-valued matrix from and to file tic-tac-toe.txt
+### Read and save integer-valued matrix from and to file tic-tac-toe.txt<a name=readsavematrix</a>
 
     import numpy as np
     data = np.genfromtxt("tic-tac-toe.txt", dtype=np.int)
