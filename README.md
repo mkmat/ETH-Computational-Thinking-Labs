@@ -16,7 +16,7 @@
 
 ## Classroom assignments<a name="assignments"></a>
  
- You will receive an invitation for each assignment by email. Accept the assignment and choose from the existing groups, if you'd like to join any of the existing groups, or create a new group. Upon acceptance, you will find a new repository in your personal GitHub account. See below if you don't have a GitHub account yet. 
+ You will receive an invitation for each assignment by email. Accept the assignment and choose from the existing groups, if you'd like to join any of the existing groups, or create a new group. Upon acceptance, you will find a new repository in your personal GitHub account. See [below](#github) if you don't have a GitHub account yet. 
  
 ### Classroom assignments in [vscode](#vscode)
  
