@@ -193,7 +193,7 @@ Contact lecturer or assistant(s).
 
 ### Help with debugging your python code
 
-There are various options
+There are various options (email addresses available from the course page)
 1. Send us your questions if they can be potentially answered without seeing your code. 
 2. If you have vscode + live share installed, send us an invitation as described [above](#liveshare) 
 3. If you are editing your code at Overleaf, invite us to your Overleaf project as described [above](#overleaf), and if done so already, write in the Overleaf chat, or contact us. 
