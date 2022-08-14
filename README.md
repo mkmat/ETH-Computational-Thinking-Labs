@@ -64,6 +64,27 @@ Cheat Sheets: https://cheatography.com/tag/-python/, https://www.pythoncheatshee
     ...
     # the number of command line arguments is: len(sys.argv)-1
     n = int(sys.argv[1])
+    
+### General structure of Python script that can be imported or reused and also executed from the command line
+
+    import sys
+
+    def myfunction1 (a):
+        print("first (integer) argument is "+str(a))
+        
+    def myfunction2 (a,b):
+        print("first (integer) argument is "+str(a))
+        print("2nd (float) argument is "+str(b))
+    
+    # do the following if called from the command line
+
+    if len(sys.argv)-1==1:
+        a = int(sys.argv[1])
+        myfunction1(a)
+    elif len(sys.argv)-1==2:
+        a = int(sys.argv[1])
+        b = float(sys.argv[2])
+        myfunction2(a,b)
  
 ### Exit from your python3 script with value 13
 
@@ -91,6 +112,10 @@ Cheat Sheets: https://cheatography.com/tag/-python/, https://www.pythoncheatshee
     # assuming myarray (an array) carries your image
     plt.imshow(myarray)
     plt.savefig('mygraphics.png')
+    
+### Introduction to Python classes and related 
+
+https://www.youtube.com/watch?v=ZDa-Z5JzLYM
     
 ## Collaboration tool: GitHub<a name="github"></a>
 
