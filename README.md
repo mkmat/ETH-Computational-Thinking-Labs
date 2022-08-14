@@ -16,7 +16,7 @@
 
 ## Classroom assignments<a name="assignments"></a>
  
- You will receive an invitation for each assignment by email. Accept the assignment as a member of your group. Upon acceptance, you will find a new directory in your personal GitHub account. See below if you don't have a GitHub account yet.
+ You will receive an invitation for each assignment by email. Accept the assignment and choose from the existing groups, if you'd like any of the existing groups, or create a new group. Upon acceptance, you will find a new repository in your personal GitHub account. See below if you don't have a GitHub account yet. 
  
 ### Classroom assignments in [vscode](#vscode)
  
@@ -32,7 +32,7 @@ You can create a new project at Overleaf from your assignment at GitHub as descr
  
 ## Reports: Markdown syntax<a name="markdown"></a>
 
-md-files like myfile.md are interpreted using the Markdown syntax at GitHub. A quick reference to the Markdown syntax is available at  https://www.markdownguide.org/cheat-sheet/
+All information about a project other than the script itself, such as goals, ideas, results should be collected in the file report.md located at your github assignment. All group members should be enabled to edit report.md. md-files are interpreted using the Markdown syntax at GitHub. A quick reference to the Markdown syntax is available at  https://www.markdownguide.org/cheat-sheet/
 
 ## Programming language: python3 interpreter<a name="interpreter"></a>
 
