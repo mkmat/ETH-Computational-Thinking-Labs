@@ -183,7 +183,7 @@ To be able to edit your python scripts simultaneously with group members and to 
 1. One group member either imports the GitHub repository as a new project to his/her Overleaf (if other group members prefer to edit the code outside Overleaf) OR creates a new folder CODES, and creates a file code.py within this folder.  
 2. This group member shares the project with the remaining group members (emails required, click Share in Overleaf)
 3. All group members can now edit the python script at Overleaf at any time, also simultaneously. The Chat and Review features of Overleaf can be used to leave comments. 
-4. To be able to execute your code.py online, you need to invite the lecturer to your project. The code can afterwards be executed at http://www.complexfluids.ethz.ch/cgi-bin/code-expert. The CTL-code-expert allows everybody to just execute your code (but not read or change it) and to specify parameters. It is certainly less convenient than editing and executing python via vscode, from the command line, or using another python editor. While error messages are displayed, graphics must be saved on file(s) (as described [above](#graphics)) to to get displayed. 
+4. To be able to execute your code.py online, you need to invite the lecturer to your project. The code can afterwards be executed at http://www.complexfluids.ethz.ch/cgi-bin/CTL-code-expert. The CTL-code-expert allows everybody to just execute your code (but not read or change it) and to specify parameters. It is certainly less convenient than editing and executing python via vscode, from the command line, or using another python editor. While error messages are displayed, graphics must be saved on file(s) (as described [above](#graphics)) to to get displayed. 
     
 ## How to: install git
 
