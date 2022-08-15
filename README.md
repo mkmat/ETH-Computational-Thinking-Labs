@@ -115,7 +115,7 @@ Cheat Sheets: https://cheatography.com/tag/-python/, https://www.pythoncheatshee
     if os.path.isfile("myfile"):
       ...
     
-### Read and save integer-valued matrix from and to file tic-tac-toe.txt<a name=readsavematrix</a>
+### Read and save integer-valued matrix from and to file tic-tac-toe.txt<a name=readsavematrix></a>
 
     import numpy as np
     data = np.genfromtxt("tic-tac-toe.txt", dtype=np.int)
