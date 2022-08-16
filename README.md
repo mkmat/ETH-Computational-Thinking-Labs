@@ -20,7 +20,7 @@
  
 ### Classroom assignments in [vscode](#vscode)
  
- Start [vscode](#vscode). To manage your classroom assignments, click the github symbol in the left taskbar, sign in to github. To commit your changes, click the Source Control icon (Crtl-Shit-G). Always leave a message for your commits. 
+ Start [vscode](#vscode). To manage your classroom assignments, click the GitHub symbol in the left taskbar, sign in to GitHub. To commit your changes, click the Source Control icon (Crtl-Shit-G). Always leave a message for your commits. 
  
 ### Classroom assignments at [GitHub](#github)
 
@@ -32,7 +32,7 @@ You can create a new project at [Overleaf](#overleaf) from your assignment at Gi
  
 ## Reports: Markdown syntax<a name="markdown"></a>
 
-All information about a project other than the script itself, such as goals, ideas, results should be collected in the file report.md located at your github assignment. All group members should be enabled to edit report.md. md-files are interpreted using the Markdown syntax at GitHub. A quick reference to the Markdown syntax is available at  https://www.markdownguide.org/cheat-sheet/
+All information about a project other than the script itself, such as goals, ideas, results should be collected in the file report.md located at your GitHub assignment. All group members should be enabled to edit report.md. md-files are interpreted using the Markdown syntax at GitHub. A quick reference to the Markdown syntax is available at  https://www.markdownguide.org/cheat-sheet/
 
 ## Programming language: python3 interpreter<a name="interpreter"></a>
 
@@ -135,7 +135,7 @@ https://www.youtube.com/watch?v=ZDa-Z5JzLYM
     
 ## Collaboration tool: GitHub<a name="github"></a>
 
-Create your personal github account at www.github.com
+Create your personal GitHub account at www.github.com
     
 ## Write and Run python3 scripts in vscode<a name="vscode"></a>
  
@@ -146,12 +146,12 @@ Create your personal github account at www.github.com
  
 ## Collaboration tool: Live share scripts in vscode<a name="liveshare"></a>
  
- You can edit your python script simultaneously with group members or let them just read and comment on your code from within vscode + live share. If the code is located at github, all group members can open it from there (clone, fork, branch, pull ..), and commit, push, .. their modified codes. 
+ You can edit your python script simultaneously with group members or let them just read and comment on your code from within vscode + live share. If the code is located at GitHub, all group members can open it from there (clone, fork, branch, pull ..), and commit, push, .. their modified codes. 
  
  1. click on the Extensions symbol in the left taskbar (Crtl-shift-X). Search for VS live share. Choose the version from Microsoft, install.
- 2. click on the Extensions symbol in the left taskbar (Crtl-shift-X). Search for github pull requests and issues extension, install.
+ 2. click on the Extensions symbol in the left taskbar (Crtl-shift-X). Search for GitHub pull requests and issues extension, install.
  
-### Clone and use a github repository in vscode
+### Clone and use a GitHub repository in vscode
  
  In vscode, open the command palette with Crtl-Shift-P. At the command palette prompt, enter gitcl, select the Git: Clone command, and press Enter. When prompted for the Repository URL, select clone from GitHub, then press Enter. If you are asked to sign into GitHub, complete the sign-in process. Enter the repository URL, selected or create a local directory into which you want to clone the project. 
  
@@ -163,9 +163,9 @@ Create your personal github account at www.github.com
  
  Login at https://www.overleaf.com/edu/ethz using your ETH email address. 
  
-### How to: Export Overleaf project to github
+### How to: Export Overleaf project to GitHub
  
- At Overleaf, switch to the project you want to export. Click Menu (top left), then GitHub. This will create a new repository at your github. You can choose between private and public. Pull GitHub changes to Overleaf: Menu, GitHub.  
+ At Overleaf, switch to the project you want to export. Click Menu (top left), then GitHub. This will create a new repository at your GitHub. You can choose between private and public. Pull GitHub changes to Overleaf: Menu, GitHub.  
  
 ### How to: Import github repository to Overleaf<a href=OverleafImportGitHub></a>
  
@@ -178,7 +178,7 @@ Create your personal github account at www.github.com
  
 ## Collaboration tool: Installation-free: Run python3 in CTL-code-expert<a name="code-expert"></a>
 
-To be able to edit your python scripts simultaneously with group members and to execute them without installing anything (no python, vscode, github required) you can do the following: 
+To be able to edit your python scripts simultaneously with group members and to execute them without installing anything (no python, vscode, GitHub required) you can do the following: 
 
 1. One group member either imports the GitHub repository as a new project to his/her Overleaf (if other group members prefer to edit the code outside Overleaf) OR creates a new folder CODES, and creates a file code.py within this folder.  
 2. This group member shares the project with the remaining group members (emails required, click Share in Overleaf)
@@ -210,7 +210,7 @@ Contact lecturer or assistant(s).
 ### Help with debugging your python code
 
 There are various options (email addresses available from the course page)
-1. Leave a message in the Discussion section of your github classroom assignment. 
+1. Leave a message in the Discussion section of your GitHub classroom assignment. 
 2. Send us your questions if they can be potentially answered without seeing your code. 
 3. If you have vscode + live share installed, send us an invitation as described [above](#liveshare) 
 4. If you are editing your code at Overleaf, invite us to your Overleaf project as described [above](#overleaf), and if done so already, write in the Overleaf chat, or contact us. 
