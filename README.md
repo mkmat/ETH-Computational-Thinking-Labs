@@ -20,7 +20,7 @@
  
 ### Classroom assignments in [vscode](#vscode)
  
- Start vscode. To manage your classroom assignments, click the github symbol in the left taskbar, sign in to github. To commit your changes, click the Source Control icon (Crtl-Shit-G). Always leave a message for your commits. 
+ Start [vscode](#vscode). To manage your classroom assignments, click the github symbol in the left taskbar, sign in to github. To commit your changes, click the Source Control icon (Crtl-Shit-G). Always leave a message for your commits. 
  
 ### Classroom assignments at [GitHub](#github)
 
@@ -28,7 +28,7 @@ Once you accepted an assignment, you will find a new repository in your personal
  
 ### Classroom assignments at [Overleaf](#overleaf)
 
-You can create a new project at Overleaf from your assignment at GitHub as described [below](#OverleafImportGitHub). Unfortunately, files ending with .py are not rendered as a text file in Overleaf, except if you create a new file.py at Overleaf and paste the content of the python script into it. Python scripts located at your Overleaf can be executed over the [CTL-code-expert online](#code-expert) tool. 
+You can create a new project at [Overleaf](#overleaf) from your assignment at GitHub as described [below](#OverleafImportGitHub). Unfortunately, files ending with .py are not rendered as a text file in Overleaf, except if you create a new file.py at Overleaf and paste the content of the python script into it. Python scripts located at your Overleaf can be executed over the [CTL-code-expert online](#code-expert) tool. 
  
 ## Reports: Markdown syntax<a name="markdown"></a>
 
@@ -210,8 +210,9 @@ Contact lecturer or assistant(s).
 ### Help with debugging your python code
 
 There are various options (email addresses available from the course page)
-1. Send us your questions if they can be potentially answered without seeing your code. 
-2. If you have vscode + live share installed, send us an invitation as described [above](#liveshare) 
-3. If you are editing your code at Overleaf, invite us to your Overleaf project as described [above](#overleaf), and if done so already, write in the Overleaf chat, or contact us. 
-4. Leave a message in the github classroom. 
+1. Leave a message in the Discussion section of your github classroom assignment. 
+2. Send us your questions if they can be potentially answered without seeing your code. 
+3. If you have vscode + live share installed, send us an invitation as described [above](#liveshare) 
+4. If you are editing your code at Overleaf, invite us to your Overleaf project as described [above](#overleaf), and if done so already, write in the Overleaf chat, or contact us. 
+
 
