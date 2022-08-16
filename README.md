@@ -27,7 +27,7 @@ switch to [ETH-Computational-Thinking-Lab/teams](https://github.com/orgs/ETH-Com
 
 <img src=./images/capture-teams.png>
 
-Here you can reply to existing questions, or start a new discussion. 
+Here you can reply to existing questions, or start a new discussion.  
 
 
  
