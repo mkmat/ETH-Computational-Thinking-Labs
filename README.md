@@ -223,9 +223,8 @@ Contact lecturer or assistant(s).
 ### Help with debugging your python code
 
 There are various options (email addresses available from the course page)
-1. Leave a message in the Discussion section of your GitHub classroom assignment. 
-2. Send us your questions if they can be potentially answered without seeing your code. 
-3. If you have vscode + live share installed, send us an invitation as described [above](#liveshare) 
+1. Leave a message in the Discussion section of your group at [ETH-Computational-Thinking-Lab/teams](https://github.com/orgs/ETH-Computational-Thinking-Lab/teams). 
+2. If you have vscode + live share installed, send us an invitation as described [above](#liveshare) or arrange a date with any of us by email or through 'Discussion' 
 4. If you are editing your code at Overleaf, invite us to your Overleaf project as described [above](#overleaf), and if done so already, write in the Overleaf chat, or contact us. 
 
 
