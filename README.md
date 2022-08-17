@@ -15,29 +15,35 @@
 
 
 ## Classroom assignments<a name="assignments"></a>
+
+### accept an assignment and become member of a group
+ You will receive an invitation for each assignment by email. Accept the assignment and choose from the existing groups, if you'd like to join any of the existing groups, or create a new group. Upon acceptance, you will find a new repository in your personal GitHub account. See [below](#github) if you don't have a GitHub account yet.  
  
- You will receive an invitation for each assignment by email. Accept the assignment and choose from the existing groups, if you'd like to join any of the existing groups, or create a new group. Upon acceptance, you will find a new repository in your personal GitHub account. See [below](#github) if you don't have a GitHub account yet. 
- 
- To always find back your assignment at GitHub, click https://github.com/ETH-Computational-Thinking-Lab and then on the name of the assignment. 
- 
-To communicate with your group members about issues related to this particular assignment, you may use 'Issues' from the assignment.
+### Classroom assignments at [GitHub](#github)
+
+Once you accepted an assignment, you will find a new repository in your personal GitHub. You do not need to use vscode to edit your codes, you can also edit them directly at GitHub, or clone the directory to a local directory, and edit from there using another software. Make sure to commit your changes. 
+
+To always find back your assignment(s) at GitHub, click https://github.com/ETH-Computational-Thinking-Lab and then on the name of the assignment.
+
+### communicate with group members
+To communicate with your group members about issues related to this particular assignment, you may use 'Issues' tab having entered your assignment at GitHub
 
 <img src=./images/capture-issues.png>
 
+### start a discussion
 To communicate with the lecturer+assistants (go up one level in github, and click Teams, i.e.) 
 switch to https://github.com/orgs/ETH-Computational-Thinking-Lab/teams, and then click your group. 
 
 <img src=./images/capture-teams.png>
 
 Here you can reply to existing questions, or start a new discussion.
+
+### publish your modified files
+After editing a python script or markdown file, you commit your changes directly and update the file, or create a pull request, if you want your group members or assistants review your changes. These are the only two options you have when submitting your changed file. Leave a comment in the pull request if you have any particular question. Open pull requests are mentioned in the menu bar of your assignment.
  
 ### Classroom assignments in [vscode](#vscode)
  
- Start [vscode](#vscode). To manage your classroom assignments, click the GitHub symbol in the left taskbar, sign in to GitHub. To commit your changes, click the Source Control icon (Crtl-Shit-G). Always leave a message for your commits. 
- 
-### Classroom assignments at [GitHub](#github)
-
-Once you accepted an assignment, you will find a new repository in your personal GitHub. You do not need to use vscode to edit your codes, you can also edit them directly at GitHub, or clone the directory to a local directory, and edit from there using another software. Make sure to commit your changes. 
+ Start [vscode](#vscode). To manage your classroom assignments, click the GitHub symbol in the left taskbar, sign in to GitHub. To commit your changes, click the Source Control icon (Crtl-Shit-G). Always leave a message for your commits.  
  
 ### Classroom assignments at [Overleaf](#overleaf)
 
