@@ -16,20 +16,20 @@
 
 ## Classroom assignments<a name="assignments"></a>
  
- You will receive an invitation for each assignment by email. Accept the assignment and choose from the existing groups, if you'd like to join any of the existing groups, or create a new group. Upon acceptance, you will find a new repository in your personal GitHub account. See [below](#github) if you don't have a GitHub account yet. To always find back your assignment at GitHub, click https://github.com/ETH-Computational-Thinking-Lab and then then on the name of the assignment. 
+ You will receive an invitation for each assignment by email. Accept the assignment and choose from the existing groups, if you'd like to join any of the existing groups, or create a new group. Upon acceptance, you will find a new repository in your personal GitHub account. See [below](#github) if you don't have a GitHub account yet. 
+ 
+ To always find back your assignment at GitHub, click https://github.com/ETH-Computational-Thinking-Lab and then on the name of the assignment. 
  
 To communicate with your group members about issues related to this particular assignment, you may use 'Issues' from the assignment.
 
 <img src=./images/capture-issues.png>
 
 To communicate with the lecturer+assistants (go up one level in github, and click Teams, i.e.) 
-switch to [ETH-Computational-Thinking-Lab/teams](https://github.com/orgs/ETH-Computational-Thinking-Lab/teams), and then click your group. 
+switch to https://github.com/orgs/ETH-Computational-Thinking-Lab/teams, and then click your group. 
 
 <img src=./images/capture-teams.png>
 
-Here you can reply to existing questions, or start a new discussion in the Discussions tab:
-
-<img src=./images/capture-discussion.png>
+Here you can reply to existing questions, or start a new discussion.
  
 ### Classroom assignments in [vscode](#vscode)
  
