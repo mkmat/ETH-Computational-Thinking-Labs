@@ -155,6 +155,8 @@ https://www.youtube.com/watch?v=ZDa-Z5JzLYM
 ## Collaboration tool: GitHub<a name="github"></a>
 
 Create your personal GitHub account at www.github.com
+
+Check your settings like email notifactions etc. under 'Settings'. 
     
 ## Write and Run python3 scripts in vscode<a name="vscode"></a>
  
