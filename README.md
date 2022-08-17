@@ -1,5 +1,6 @@
 # ETH Computational Thinking Labs: general instructions
 
+0. [Relevant links](#links)
 1. [Classroom assignments](#assignments)
 2. [Reports: Markdown syntax](#markdown)
 3. [Programming language: python3 interpreter](#interpreter)
@@ -13,11 +14,11 @@
 11. [Collaboration tool: Write and Run Matlab](#matlab)
 12. [Where to get help](#help)
 
-## Relevant links
+## 0. Relevant links<a name="links"></a>
 
 All relevant links for this course are collected at a single website: https://ctl.polyphys.mat.ethz.ch/, which you may bookmark. 
 
-## Classroom assignments<a name="assignments"></a>
+## 1. Classroom assignments<a name="assignments"></a>
 
 ### accept an assignment and become member of a group
  You will receive an invitation for each assignment by email. Accept the assignment and choose from the existing groups, if you'd like to join any of the existing groups, or create a new group. Upon acceptance, you will find a new repository in your personal GitHub account. See [below](#github) if you don't have a GitHub account yet.  
@@ -52,11 +53,11 @@ After editing a python script or markdown file, you commit your changes directly
 
 You can create a new project at [Overleaf](#overleaf) from your assignment at GitHub as described [below](#OverleafImportGitHub). Unfortunately, files ending with .py are not rendered as a text file in Overleaf, except if you create a new file.py at Overleaf and paste the content of the python script into it. Python scripts located at your Overleaf can be executed over the [CTL-code-expert online](#code-expert) tool. 
  
-## Reports: Markdown syntax<a name="markdown"></a>
+## 2. Reports: Markdown syntax<a name="markdown"></a>
 
 All information about a project other than the script itself, such as goals, ideas, results should be collected in the file report.md located at your GitHub assignment. All group members should be enabled to edit report.md. md-files are interpreted using the Markdown syntax at GitHub. A quick reference to the Markdown syntax is available at  https://www.markdownguide.org/cheat-sheet/
 
-## Programming language: python3 interpreter<a name="interpreter"></a>
+## 3. Programming language: python3 interpreter<a name="interpreter"></a>
 
 ### Install
 
@@ -64,7 +65,7 @@ windows, macos, linux: download from https://docs.conda.io/en/latest/miniconda.h
 
 Miniconda is a free minimal installer for conda. It is a small, bootstrap version of Anaconda that includes only conda, Python, the packages they depend on, and a  small number of other useful packages, including pip, zlib and a few others. Use the conda install command to install additional packages like numpy or matplotlib.
 
-## Run python3 from the command line<a name="commandline"></a>
+## 4. Run python3 from the command line<a name="commandline"></a>
 
 ### Execute a python3 script from the command line
 
@@ -76,7 +77,7 @@ Exit the interactive python3 via quit(). Display the exit value via
  
     python3 [yourscript.py] [arguments]; echo $?
     
-## Write python3<a name="language"></a>
+## 5. Write python3<a name="language"></a>
 
 Cheat Sheets: https://cheatography.com/tag/-python/, https://www.pythoncheatsheet.org/
 
@@ -155,20 +156,20 @@ Cheat Sheets: https://cheatography.com/tag/-python/, https://www.pythoncheatshee
 
 https://www.youtube.com/watch?v=ZDa-Z5JzLYM
     
-## Collaboration tool: GitHub<a name="github"></a>
+## 6. Collaboration tool: GitHub<a name="github"></a>
 
 Create your personal GitHub account at www.github.com
 
 Check your settings like email notifactions etc. under 'Settings'. 
     
-## Write and Run python3 scripts in vscode<a name="vscode"></a>
+## 7. Write and Run python3 scripts in vscode<a name="vscode"></a>
  
  Install vscode (Visual Studio Code) from https://code.visualstudio.com/download. Choose 'add to path' during installation. Start vscode, 
  1. click on the Extensions symbol in the left taskbar (Crtl-shift-X). Search for python, press return. Choose python from Microsoft, install.
  2. Choose File, New File, Select File type python or enter python in the search field, press enter. Choose a file location and name. 
  3. Press Run (press the triangle) or Run+Debug or enter a python command in the TERMINAL. The output is shown in the TERMINAL and/or OUTPUT. 
  
-## Collaboration tool: Live share scripts in vscode<a name="liveshare"></a>
+## 8. Collaboration tool: Live share scripts in vscode<a name="liveshare"></a>
  
  You can edit your python script simultaneously with group members or let them just read and comment on your code from within vscode + live share. If the code is located at GitHub, all group members can open it from there (clone, fork, branch, pull ..), and commit, push, .. their modified codes. 
  
@@ -183,7 +184,7 @@ Check your settings like email notifactions etc. under 'Settings'.
  
  In vscode, click the Live Share icon in the left taskbar. Click Share to share the file or folder you are editing. Follow the instruction and send the invitation to one or more group members, assistants, lecturer (email, skype etc). You can allow the invited person to read only or to edit your file. If you are receiving the invitation, follow the link and accept the invitation (you can join either by the vscode web interface or by your locally installed vscode). The inviting person will then let you in. You can add comments to the open files, chat etc. and change the file if you have the permission. 
  
-## Collaboration tool: Write python3 scripts in Overleaf<a name="overleaf"></a>
+## 9. Collaboration tool: Write python3 scripts in Overleaf<a name="overleaf"></a>
  
  Login at https://www.overleaf.com/edu/ethz using your ETH email address. 
  
@@ -200,7 +201,7 @@ Check your settings like email notifactions etc. under 'Settings'.
  
  At Overleaf, switch to the project you want to synchronize. Click Menu (top left), then Dropbox.  
  
-## Collaboration tool: Installation-free: Run python3 in CTL-code-expert<a name="code-expert"></a>
+## 10. Collaboration tool: Installation-free: Run python3 in CTL-code-expert<a name="code-expert"></a>
 
 To be able to edit your python scripts simultaneously with group members and to execute them without installing anything (no python, vscode, GitHub required) you can do the following: 
 
@@ -213,11 +214,11 @@ To be able to edit your python scripts simultaneously with group members and to 
 
 Install git from https://git-scm.com/download
 
-## Collaboration tool: Write and Run Matlab<a name=matlab></a>
+## 11. Collaboration tool: Write and Run Matlab<a name=matlab></a>
 
 Assignments can also be completed using other programming languages such as Matlab. To work with Matlab in a group consider using MATLAB Drive (it is very similat to polybox or dropbox). You need to have an account at www.mathworks.com. Login into this account through the website and search for MATLAB Drive, and install it. You can then share your files within a dedicated directory with group members. 
 
-## Where to get help<a name=help></a>
+## 12. Where to get help<a name=help></a>
 
 ### Help with installations and GitHub
 
