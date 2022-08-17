@@ -78,7 +78,7 @@ myenv by with a unique name of your new (optional) environment. Open a command p
     conda create -n myenv python=3.7 scipy=0.17.3 astroid babel
   
 This will create a new directory myenv in your conda/envs directory. 
-Start vscpde. Press ctrl-alt-p and search for: python: select interpreter. Choose myenv from the list, if you prefer to use myenv in your current project. 
+Start vscode. Press ctrl-alt-p and search for: python: select interpreter. Choose myenv from the list, if you prefer to use myenv in your current project. 
 
 ## 4. Run python3 from the command line<a name="commandline"></a>
 
