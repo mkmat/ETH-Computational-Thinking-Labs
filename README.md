@@ -39,7 +39,7 @@ switch to https://github.com/orgs/ETH-Computational-Thinking-Lab/teams, and then
 Here you can reply to existing questions, or start a new discussion.
 
 ### publish your modified files
-After editing a python script or markdown file, you commit your changes directly and update the file, or create a branch + pull request, if you want your group members or assistants review your changes. These are the only two options you have when submitting your changed file. Leave a comment in the pull request if you have any particular question. Open pull requests are mentioned in the menu bar of your assignment. If you are assigned to review a pull request, of if you have the permission to review it, you can reject or merge a pull request to finally update the current script. At the 'branches' tab you can find the existing active branches, and also delete them, if they had been treated already. 
+After editing a python script or markdown file, you commit your changes directly and update the file, or create a branch + pull request, if you want your group members or assistants review your changes. These are the only two options you have when submitting your changed file. Leave a comment in the pull request if you have any particular question. Open pull requests are mentioned in the menu bar of your assignment. If you are assigned to review a pull request (most likely by email), or if you have the permission to review it, you can reject or merge a pull request to finally update the current script. At the 'branches' tab you can find the existing active branches, and also delete them, if they had been taken care of already. 
  
 ### Classroom assignments in [vscode](#vscode)
  
