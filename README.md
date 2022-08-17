@@ -65,6 +65,21 @@ windows, macos, linux: download from https://docs.conda.io/en/latest/miniconda.h
 
 Miniconda is a free minimal installer for conda. It is a small, bootstrap version of Anaconda that includes only conda, Python, the packages they depend on, and a  small number of other useful packages, including pip, zlib and a few others. Use the conda install command to install additional packages like numpy or matplotlib.
 
+### Create environment with a specific version of python (or other modules) in vscode<a name=conda></a>
+
+In some cases the library you want to use does not run under the python version you installed. 
+You can use older python version or older packages quite easily in vscode with the help of 
+a single conda command as shown below. By default, environments are installed into the envs directory in your conda directory. 
+Run conda create --help for information on specifying a different path. Below, replace
+myenv by with a unique name of your new (optional) environment. Open a command prompt and execute
+
+    conda create -n myenv python=3.7
+    or 
+    conda create -n myenv python=3.7 scipy=0.17.3 astroid babel
+  
+This will create a new directory myenv in your conda/envs directory. 
+Start vscpde. Press ctrl-alt-p and search for: python: select interpreter. Choose myenv from the list, if you prefer to use myenv in your current project. 
+
 ## 4. Run python3 from the command line<a name="commandline"></a>
 
 ### Execute a python3 script from the command line
