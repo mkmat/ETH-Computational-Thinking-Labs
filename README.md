@@ -13,6 +13,9 @@
 11. [Collaboration tool: Write and Run Matlab](#matlab)
 12. [Where to get help](#help)
 
+## Relevant links
+
+All relevant links for this course are collected at a single website: https://ctl.polyphys.mat.ethz.ch/, which you may bookmark. 
 
 ## Classroom assignments<a name="assignments"></a>
 
