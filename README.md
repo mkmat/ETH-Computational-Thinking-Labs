@@ -190,6 +190,10 @@ Check your settings like email notifactions etc. under 'Settings'.
  
  1. click on the Extensions symbol in the left taskbar (Crtl-shift-X). Search for VS live share. Choose the version from Microsoft, install.
  2. click on the Extensions symbol in the left taskbar (Crtl-shift-X). Search for GitHub pull requests and issues extension, install.
+
+### Work on your assignment in vscode
+
+Start vscode, and click on the github symbol in the menu bar. Log into your GitHub account. After successful login, you should find a CLASSROOMS folder and corresponding files in your file container. To watch the README.md side-by-side with your code, split the window (top right), click on the README.md and press crtl+K followed by V to render the markdown file properly. 
  
 ### Clone and use a GitHub repository in vscode
  
