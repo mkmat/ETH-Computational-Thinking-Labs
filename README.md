@@ -167,6 +167,14 @@ Cheat Sheets: https://cheatography.com/tag/-python/, https://www.pythoncheatshee
     plt.imshow(myarray)
     plt.savefig('mygraphics.png')
     
+### python profiler
+
+Calling python with the following options 
+
+     python3 -m cProfile -o log.profiler mypthonscript.py 
+    
+creates a file log.profiler that contains information about the cpu time spent in the several routines. This can be very useful to find the most time-consuming parts of your code. 
+    
 ### Introduction to Python classes and related 
 
 https://www.youtube.com/watch?v=ZDa-Z5JzLYM
