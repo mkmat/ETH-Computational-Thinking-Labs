@@ -167,7 +167,7 @@ Cheat Sheets: https://cheatography.com/tag/-python/, https://www.pythoncheatshee
     plt.imshow(myarray)
     plt.savefig('mygraphics.png')
     
-### python profiler
+### python profiler<a name="profiler"></a>
 
 Calling python with the following options 
 
