@@ -13,6 +13,7 @@
 10. [Collaboration tool: Installation-free: Run python3 in CTL-code-expert](#code-expert)
 11. [Collaboration tool: Write and Run Matlab](#matlab)
 12. [Where to get help](#help)
+13. [Esthi's CTL video channel](#esthi)
 
 ## 0. Relevant links<a name="links"></a>
 
@@ -249,7 +250,7 @@ Assignments can also be completed using other programming languages such as Matl
 
 ### Help with installations and GitHub
 
-Contact an assistant
+Watch Esthi's [videos](#esthi), or read the above instructions, or contact an assistant
 
 ### Help with Overleaf or CTL-code-expert
 
@@ -262,8 +263,14 @@ Contact lecturer or assistant(s).
 ### Help with debugging your python code
 
 There are various options (email addresses available from the course page)
-1. Leave a message in the Discussion section of your group at [ETH-Computational-Thinking-Lab/teams](https://github.com/orgs/ETH-Computational-Thinking-Lab/teams). 
-2. If you have vscode + live share installed, send us an invitation as described [above](#liveshare) or arrange a date with any of us by email or through 'Discussion' 
+1. Send an email. 
+2. Leave a message in the Discussion section of your group at [ETH-Computational-Thinking-Lab/teams](https://github.com/orgs/ETH-Computational-Thinking-Lab/teams). 
+3. If you have vscode + live share installed, send us an invitation as described [above](#liveshare) or arrange a date with any of us by email or through 'Discussion' 
 4. If you are editing your code at Overleaf, invite us to your Overleaf project as described [above](#overleaf), and if done so already, write in the Overleaf chat, or contact us. 
 
+## 13. Esthi's CTL video channel <a name=esthi></a>
+
+is useful for all those who prefer to watch instructions with animations: 
+
+1. https://www.youtube.com/watch?v=bTpfECIweIU&ab_channel=Esthi
 
