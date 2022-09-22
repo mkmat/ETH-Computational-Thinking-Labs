@@ -270,7 +270,7 @@ There are various options (email addresses available from the course page)
 
 ## 13. Esthi's CTL video channel <a name=esthi></a>
 
-is useful for all those who prefer to watch instructions with animations: 
+is useful for all those who prefer to watch animated instructions: 
 
 1. https://www.youtube.com/watch?v=bTpfECIweIU&ab_channel=Esthi
 
