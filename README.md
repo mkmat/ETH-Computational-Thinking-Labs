@@ -22,7 +22,7 @@ All relevant links for this course are collected at a single website: https://ct
 ## 1. Classroom assignments<a name="assignments"></a>
 
 ### accept an assignment and become member of a group
- You will receive an invitation for each assignment by email. Accept the assignment and choose from the existing groups, if you'd like to join any of the existing groups, or create a new group. Upon acceptance, you will find a new repository in your personal GitHub account. See [below](#github) if you don't have a GitHub account yet.  
+ You will receive an invitation for each assignment by email. Accept the assignment and choose from the existing groups, if you'd like to join any of the existing groups, or create a new group. Upon acceptance, you will find a new repository in your personal GitHub account. See [below](#github) if you don't have a GitHub account yet. If you cannot find any place in any of the existing groups and want to create a new group, while the maximum number of groups has been reached already, please send an email. 
  
 ### Classroom assignments at [GitHub](#github)
 
