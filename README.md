@@ -48,7 +48,7 @@ After editing a python script or markdown file, you commit your changes directly
  
 ### Classroom assignments in [vscode](#vscode)
  
- Start [vscode](#vscode). To manage your classroom assignments, click the GitHub symbol in the left taskbar, sign in to GitHub. To commit your changes, click the Source Control icon (Crtl-Shit-G). Always leave a message for your commits. To see the rendered markdown README.md, click on README.md (or your own md-file), and then crtl+K followed by V. 
+ Start [vscode](#vscode). To manage your classroom assignments, click the GitHub symbol in the left taskbar, sign in to GitHub. To commit your changes, click the Source Control icon (Crtl-Shift-G). Always leave a message for your commits. To see the rendered markdown README.md, click on README.md (or your own md-file), and then crtl+K followed by V. 
  
 ### Classroom assignments at [Overleaf](#overleaf)
 
