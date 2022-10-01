@@ -184,7 +184,7 @@ https://www.youtube.com/watch?v=ZDa-Z5JzLYM
 
 Create your personal GitHub account at www.github.com
 
-Check your settings like email notifactions etc. under 'Settings'. 
+Check your settings like email notifactions etc. under 'Settings'. A helpful video explaining some GitHub features is available [here at youtube](https://www.youtube.com/watch?v=iqW_yzZkU_8).
     
 ## 7. Write and Run python3 scripts in vscode<a name="vscode"></a>
  
