@@ -3,7 +3,7 @@
 0. [Relevant links](#links)
 1. [Classroom assignments](#assignments)
 2. [Reports: Markdown syntax](#markdown)
-3. [Programming language: python3 interpreter](#interpreter)
+3. [Install programming language: python3 interpreter](#interpreter)
 4. [Run python3 from the command line](#commandline)
 5. [Write python3](#language)
 6. [Collaboration tool: GitHub](#github)
@@ -48,7 +48,7 @@ After editing a python script or markdown file, you commit your changes directly
  
 ### Classroom assignments in [vscode](#vscode)
  
- If not yet installed, install vscode as described [below](#vscode). Start [vscode](#vscode). To manage your classroom assignments, click the GitHub symbol in the left taskbar, sign in to GitHub. If not yet installed, click on the Extensions buttom in the menu bar, search for *github classroom*, and install this extension. To commit your changes, click the Source Control icon (Crtl-Shift-G). Always leave a message for your commits. To see the rendered markdown README.md, click on README.md (or your own md-file), and then crtl+K followed by V. 
+ If not yet installed, install python and vscode as described below. Start [vscode](#vscode). To manage your classroom assignments, click the GitHub symbol in the left taskbar, sign in to GitHub. If not yet installed, click on the Extensions buttom in the menu bar, search for *github classroom*, and install this extension. To find your classroom assignment, click on the GitHub symbol in the vscode menu bar on the left. Select and open your assignment, find your files, edit them or create a new file. To commit your changes, click the Source Control icon (Crtl-Shift-G). Always leave a message for your commits. To see the rendered markdown README.md, click on README.md (or your own md-file), and then crtl+K followed by V. 
  
 ### Classroom assignments at [Overleaf](#overleaf)
 
@@ -58,7 +58,7 @@ You can create a new project at [Overleaf](#overleaf) from your assignment at Gi
 
 All information about a project other than the script itself, such as goals, ideas, results should be collected in the file report.md located at your GitHub assignment. All group members should be enabled to edit report.md. md-files are interpreted using the Markdown syntax at GitHub. A quick reference to the Markdown syntax is available at  https://www.markdownguide.org/cheat-sheet/
 
-## 3. Programming language: python3 interpreter<a name="interpreter"></a>
+## 3. Install programming language: python3 interpreter<a name="interpreter"></a>
 
 ### Install
 
@@ -188,7 +188,7 @@ Check your settings like email notifactions etc. under 'Settings'. A helpful vid
     
 ## 7. Install vscode (and git), write and Run python3 scripts in vscode<a name="vscode"></a>
  
- Install vscode (Visual Studio Code) from https://code.visualstudio.com/download. Choose 'add to path' during installation. Start vscode, 
+ Install vscode (Visual Studio Code) from https://code.visualstudio.com/download after you have installed python as described above. Choose 'add to path' during installation. Start vscode, 
  1. click on the Extensions symbol in the left taskbar (Crtl-shift-X). Search for python, press return. Choose python from Microsoft, install.
  2. for later use with GitHub classroom, also install the following extensions: "vscode live share" and "github pull requests and issues extension". 
  3. Click on Terminal. Type in and execute the following command in the Terminal: conda install git. Follow the installation instructions to install git. To check the successful installation, run this command within the Terminal: git --version. 
