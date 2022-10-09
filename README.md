@@ -64,7 +64,7 @@ All information about a project other than the script itself, such as goals, ide
 
 windows, macos, linux: download from https://docs.conda.io/en/latest/miniconda.html
 
-Miniconda is a free minimal installer for conda. It is a small, bootstrap version of Anaconda that includes only conda, Python, the packages they depend on, and a  small number of other useful packages, including pip, zlib and a few others. Use the conda install command to install additional packages like numpy or matplotlib.
+Miniconda is a free minimal installer for conda. It is a small, bootstrap version of Anaconda that includes only conda, Python, the packages they depend on, and a  small number of other useful packages, including pip, zlib and a few others. Choose install 'just for me' and 'add to path' during installation! Use the conda install command (now or later from within the vscode Terminal) to install additional packages like numpy or matplotlib.
 
 ### Create environment with a specific version of python (or other modules) in vscode<a name="conda"></a>
 
@@ -188,7 +188,7 @@ Check your settings like email notifactions etc. under 'Settings'. A helpful vid
     
 ## 7. Install vscode, write and Run python3 scripts in vscode<a name="vscode"></a>
  
- Install vscode (Visual Studio Code) from https://code.visualstudio.com/download. Choose 'install jut for me' and 'add to path' during installation. Start vscode, 
+ Install vscode (Visual Studio Code) from https://code.visualstudio.com/download. Choose 'add to path' during installation. Start vscode, 
  1. click on the Extensions symbol in the left taskbar (Crtl-shift-X). Search for python, press return. Choose python from Microsoft, install.
  2. for later use with GitHub classroom, also install the following extensions: "vscode live share" and "github pull requests and issues extension". 
  3. Choose File, New File, Select File type python (if it exists) or choose text file (and afterwards follow: Select a Language, select python. If python is not in the list, press crtl-shift-p and search for python: interpreter, and select from the list). Choose a file location and name. 
