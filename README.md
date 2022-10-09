@@ -7,7 +7,7 @@
 4. [Run python3 from the command line](#commandline)
 5. [Write python3](#language)
 6. [Collaboration tool: GitHub](#github)
-7. [Write and Run python3 scripts in vscode](#vscode)
+7. [Install vscode, write and Run python3 scripts in vscode](#vscode)
 8. [Collaboration tool: Live share scripts in vscode](#liveshare)
 9. [Collaboration tool: Write python3 scripts in Overleaf](#overleaf)
 10. [Collaboration tool: Installation-free: Run python3 in CTL-code-expert](#code-expert)
@@ -186,12 +186,13 @@ Create your personal GitHub account at www.github.com
 
 Check your settings like email notifactions etc. under 'Settings'. A helpful video explaining some GitHub features is available [here at youtube](https://www.youtube.com/watch?v=iqW_yzZkU_8).
     
-## 7. Write and Run python3 scripts in vscode<a name="vscode"></a>
+## 7. Install vscode, write and Run python3 scripts in vscode<a name="vscode"></a>
  
  Install vscode (Visual Studio Code) from https://code.visualstudio.com/download. Choose 'add to path' during installation. Start vscode, 
  1. click on the Extensions symbol in the left taskbar (Crtl-shift-X). Search for python, press return. Choose python from Microsoft, install.
- 2. Choose File, New File, Select File type python (if it exists) or choose text file (and afterwards follow: Select a Language, select python. If python is not in the list, press crtl-shift-p and search for python: interpreter, and select from the list). Choose a file location and name. 
- 3. Press Run (press the triangle) or Run+Debug or enter a python command in the TERMINAL. The output is shown in the TERMINAL and/or OUTPUT. 
+ 2. for later use with GitHub classroom, also install the following extensions: "vscode live share" and "github pull requests and issues extension". 
+ 3. Choose File, New File, Select File type python (if it exists) or choose text file (and afterwards follow: Select a Language, select python. If python is not in the list, press crtl-shift-p and search for python: interpreter, and select from the list). Choose a file location and name. 
+ 4. Press Run (press the triangle) or Run+Debug or enter a python command in the TERMINAL. The output is shown in the TERMINAL and/or OUTPUT. 
  
 ## 8. Collaboration tool: Live share scripts in vscode<a name="liveshare"></a>
  
