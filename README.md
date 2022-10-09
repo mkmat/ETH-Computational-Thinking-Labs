@@ -7,7 +7,7 @@
 4. [Run python3 from the command line](#commandline)
 5. [Write python3](#language)
 6. [Collaboration tool: GitHub](#github)
-7. [Install vscode, write and Run python3 scripts in vscode](#vscode)
+7. [Install vscode (and git), write and Run python3 scripts in vscode](#vscode)
 8. [Collaboration tool: Live share scripts in vscode](#liveshare)
 9. [Collaboration tool: Write python3 scripts in Overleaf](#overleaf)
 10. [Collaboration tool: Installation-free: Run python3 in CTL-code-expert](#code-expert)
