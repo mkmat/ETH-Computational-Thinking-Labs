@@ -186,12 +186,12 @@ Create your personal GitHub account at www.github.com
 
 Check your settings like email notifactions etc. under 'Settings'. A helpful video explaining some GitHub features is available [here at youtube](https://www.youtube.com/watch?v=iqW_yzZkU_8).
     
-## 7. Install vscode, write and Run python3 scripts in vscode<a name="vscode"></a>
+## 7. Install vscode (and git), write and Run python3 scripts in vscode<a name="vscode"></a>
  
  Install vscode (Visual Studio Code) from https://code.visualstudio.com/download. Choose 'add to path' during installation. Start vscode, 
  1. click on the Extensions symbol in the left taskbar (Crtl-shift-X). Search for python, press return. Choose python from Microsoft, install.
  2. for later use with GitHub classroom, also install the following extensions: "vscode live share" and "github pull requests and issues extension". 
- 3. Click on Terminal. Type in and execute the following command in the Terminal: conda install git. Follow the installation instructions to install git. TO check the successful installation, run this command within the Terminal: git --version. 
+ 3. Click on Terminal. Type in and execute the following command in the Terminal: conda install git. Follow the installation instructions to install git. To check the successful installation, run this command within the Terminal: git --version. 
  4. Choose File, New File, Select File type python (if it exists) or choose text file (and afterwards follow: Select a Language, select python. If python is not in the list, press crtl-shift-p and search for python: interpreter, and select from the list). Choose a file location and name. 
  5. Press Run (press the triangle) or Run+Debug or enter a python command in the TERMINAL. The output is shown in the TERMINAL and/or OUTPUT. 
  
