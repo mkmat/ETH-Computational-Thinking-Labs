@@ -250,6 +250,8 @@ Assignments can also be completed using other programming languages such as Matl
 
 ## 12. Where to get help<a name=help></a>
 
+### Frequently asked questions and answers are collected [here](https://github.com/ETH-Computational-Thinking-Lab/CTL-FAQ/blob/main/README.md)
+
 ### Help with installations and GitHub
 
 Watch Esthi's [videos](#esthi), or read the above instructions, or contact an assistant
