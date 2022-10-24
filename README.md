@@ -176,7 +176,7 @@ Calling python with the following options
     
 creates a file log.profiler that contains information about the cpu time spent in the several routines. This can be very useful to find the most time-consuming parts of your code. 
 
-### create mpg-movie using matplotlib
+### Create mpg-movie using matplotlib
 
     import matplotlib.pyplot as plt
     import numpy as np
