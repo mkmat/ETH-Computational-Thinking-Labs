@@ -175,6 +175,43 @@ Calling python with the following options
      python3 -m cProfile -o log.profiler mypthonscript.py 
     
 creates a file log.profiler that contains information about the cpu time spent in the several routines. This can be very useful to find the most time-consuming parts of your code. 
+
+### create mpg-movie using matplotlib
+
+    import matplotlib.pyplot as plt
+    import numpy as np
+ 
+    # importing movie py libraries
+    from moviepy.editor import VideoClip
+    from moviepy.video.io.bindings import mplfig_to_npimage
+ 
+    # numpy array
+    x = np.linspace(-2, 2, 200)
+ 
+    # duration of the video in seconds
+    duration = 2
+ 
+    # matplot subplot
+    fig, ax = plt.subplots()
+ 
+    # method to get frames
+    def make_frame(t):
+     
+        # clear
+        ax.clear()
+     
+        # plotting line
+        ax.plot(x, np.sinc(x**2) + np.sin(x + 2 * np.pi / duration * t), lw = 3)
+        ax.set_ylim(-1.5, 2.5)
+     
+        # returning numpy image
+        return mplfig_to_npimage(fig)
+ 
+    # creating animation
+    animation = VideoClip(make_frame, duration = duration)
+ 
+    # displaying animation with auto play and looping
+    animation.ipython_display(fps = 20, loop = True, autoplay = True)
     
 ### Introduction to Python classes and related 
 
