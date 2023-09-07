@@ -1,4 +1,5 @@
 # ETH Computational Thinking Labs: general instructions
+# This file will get updated before the begin of the semester, please ignore it for the time being. 
 
 0. [Relevant links](#links)
 1. [Classroom assignments](#assignments)
