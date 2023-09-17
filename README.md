@@ -6,7 +6,7 @@
 3. [python](#python)
 4. [collaboration tool: live share scripts in vscode](#liveshare)
 
-## 1. Getting started<a name="start"></a>
+## 1. getting started<a name="start"></a>
 
 All relevant links for this course are collected at a single website: https://ctl.polyphys.mat.ethz.ch/, which you may bookmark. 
 
@@ -14,7 +14,7 @@ All relevant links for this course are collected at a single website: https://ct
 
 ### installations<a name="install">
 
-## 2. Classroom assignments<a name="assignments"></a>
+## 2. classroom assignments<a name="assignments"></a>
 
 ### accept an assignment and become member of a group
 You will receive an invitation for each assignment by email. Accept the assignment and choose from the existing groups, if you'd like to join any of the existing groups, or create a new group (with a science/lecture-related name, no special characters, no blanks). Upon acceptance, you will find a new repository in your personal GitHub account. See [below](#github) if you don't have a GitHub account yet. If you cannot find any place in any of the existing groups and want to create a new group, while the maximum number of groups has been reached already, please send an email. 
@@ -203,5 +203,5 @@ Start vscode. Press ctrl-alt-p and search for: python: select interpreter. Choos
  
  In vscode, click the Live Share icon in the left taskbar. Click Share to share the file or folder you are editing. Follow the instruction and send the invitation to one or more group members, assistants, lecturer (email, skype etc). You can allow the invited person to read only or to edit your file. If you are receiving the invitation, follow the link and accept the invitation (you can join either by the vscode web interface or by your locally installed vscode). The inviting person will then let you in. You can add comments to the open files, chat etc. and change the file if you have the permission. 
          
-### Frequently asked questions and answers are collected [here](https://github.com/ETH-Computational-Thinking-Lab/CTL-FAQ/blob/main/README.md)
+## Frequently asked questions and answers are collected [here](https://github.com/ETH-Computational-Thinking-Lab/CTL-FAQ/blob/main/README.md)
 
