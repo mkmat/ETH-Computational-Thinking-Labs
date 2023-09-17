@@ -20,46 +20,31 @@
 
 All relevant links for this course are collected at a single website: https://ctl.polyphys.mat.ethz.ch/, which you may bookmark. 
 
-## 1. Classroom assignments<a name="assignments"></a>
+## 1. Required: Get a [Github] account<a name="github">
+
+## 2. Required: Installation<a name="install">
+
+## 3. Classroom assignments<a name="assignments"></a>
 
 ### accept an assignment and become member of a group
- You will receive an invitation for each assignment by email. Accept the assignment and choose from the existing groups, if you'd like to join any of the existing groups, or create a new group. Upon acceptance, you will find a new repository in your personal GitHub account. See [below](#github) if you don't have a GitHub account yet. If you cannot find any place in any of the existing groups and want to create a new group, while the maximum number of groups has been reached already, please send an email. 
+You will receive an invitation for each assignment by email. Accept the assignment and choose from the existing groups, if you'd like to join any of the existing groups, or create a new group (with a science/lecture-related name, no special characters, no blanks). Upon acceptance, you will find a new repository in your personal GitHub account. See [below](#github) if you don't have a GitHub account yet. If you cannot find any place in any of the existing groups and want to create a new group, while the maximum number of groups has been reached already, please send an email. 
+
+### deal with classroom assignments in [vscode](#vscode)
  
-### Classroom assignments at [GitHub](#github)
-
-Once you accepted an assignment, you will find a new repository in your personal GitHub. You do not need to use vscode to edit your codes, you can also edit them directly at GitHub, or clone the directory to a local directory, and edit from there using another software. Make sure to commit your changes. 
-
-To always find back your assignment(s) at GitHub, click https://github.com/ETH-Computational-Thinking-Lab and then on the name of the assignment.
-
-### communicate with group members
-To communicate with your group members about issues related to this particular assignment, you may use 'Issues' tab having entered your assignment at GitHub
-
-<img src=./images/capture-issues.png>
-
-### start a discussion
-To communicate with the lecturer+assistants (go up one level in github, and click Teams, i.e.) 
-switch to https://github.com/orgs/ETH-Computational-Thinking-Lab/teams, and then click your group. 
-
-<img src=./images/capture-teams.png>
-
-Here you can reply to existing questions, or start a new discussion.
-
-### publish your modified files
-After editing a python script or markdown file, you commit your changes directly and update the file, or create a branch + pull request, if you want your group members or assistants review your changes. These are the only two options you have when submitting your changed file. Leave a comment in the pull request if you have any particular question. Open pull requests are mentioned in the menu bar of your assignment. If you are assigned to review a pull request (most likely by email), or if you have the permission to review it, you can reject or merge a pull request to finally update the current script. At the 'branches' tab you can find the existing active branches, and also delete them, if they had been taken care of already. 
+Start [vscode](#vscode). To manage your classroom assignments, click the GitHub symbol in the left taskbar, sign in to GitHub. To find your classroom assignment, click on the GitHub symbol in the vscode menu bar on the left. Select and open your assignment, find your files, edit them or create a new file. To commit your changes, click the Source Control icon (Crtl-Shift-G). Always leave a message for your commits. To see the rendered markdown README.md, click on README.md (or your own md-file), and then crtl+K followed by V. 
  
-### Classroom assignments in [vscode](#vscode)
- 
- If not yet installed, install python and vscode as described below. Start [vscode](#vscode). To manage your classroom assignments, click the GitHub symbol in the left taskbar, sign in to GitHub. If not yet installed, click on the Extensions buttom in the menu bar, search for *github classroom*, and install this extension. To find your classroom assignment, click on the GitHub symbol in the vscode menu bar on the left. Select and open your assignment, find your files, edit them or create a new file. To commit your changes, click the Source Control icon (Crtl-Shift-G). Always leave a message for your commits. To see the rendered markdown README.md, click on README.md (or your own md-file), and then crtl+K followed by V. 
- 
-### Classroom assignments at [Overleaf](#overleaf)
+### deal with classroom assignments at [GitHub](#github)
 
-You can create a new project at [Overleaf](#overleaf) from your assignment at GitHub as described [below](#OverleafImportGitHub). Unfortunately, files ending with .py are not rendered as a text file in Overleaf, except if you create a new file.py at Overleaf and paste the content of the python script into it. Python scripts located at your Overleaf can be executed over the [CTL-code-expert online](#code-expert) tool. 
+Once you accepted an assignment, you will find a new repository in your personal GitHub. You do not need to use vscode to edit your codes, you can also edit them directly at GitHub, or clone the directory to a local directory, and edit from there using another software. Make sure to commit your changes directly to the main branch (or create a branch + pull request, if you want your group members or assistants review your changes, and if you know what you are doing). To find back (if needed) your assignment(s) at GitHub, click https://github.com/ETH-Computational-Thinking-Lab and then on the name of the assignment.
+
+### pull requests (avoid, if possible)
+After editing a python script or markdown file, you commit your changes directly to the main branch and update the file or create a branch and pull request. If you go for a pull reuqest, leave a comment in the pull request if you have any particular question. Open pull requests are mentioned in the menu bar of your assignment. If you are assigned to review a pull request (most likely by email), or if you have the permission to review it, you can reject or merge a pull request to finally update the current script. At the 'branches' tab you can find the existing active branches, and also delete them, if they had been taken care of already. 
  
-## 2. Reports: Markdown syntax<a name="markdown"></a>
+### report.md
 
 All information about a project other than the script itself, such as goals, ideas, results should be collected in the file report.md located at your GitHub assignment. All group members should be enabled to edit report.md. md-files are interpreted using the Markdown syntax at GitHub. A quick reference to the Markdown syntax is available at  https://www.markdownguide.org/cheat-sheet/
 
-## 3. Install programming language: python3 interpreter<a name="interpreter"></a>
+## 3. Only if necessary: install programming language: python3 interpreter<a name="interpreter"></a>
 
 ### Install
 
@@ -82,28 +67,28 @@ myenv by with a unique name of your new (optional) environment. Open a command p
 This will create a new directory myenv in your conda/envs directory. 
 Start vscode. Press ctrl-alt-p and search for: python: select interpreter. Choose myenv from the list, if you prefer to use myenv in your current project. 
 
-## 4. Run python3 from the command line<a name="commandline"></a>
+## python
 
-### Execute a python3 script from the command line
+### python commands 
 
-windows: search and open Command Prompt. macos and linux: Open terminal window. Switch (cd) to the directory containing your script or provide the full path of your script. Enter
+Cheat Sheets: https://cheatography.com/tag/-python/, https://www.pythoncheatsheet.org/
+
+### use command line arguments in your python3 script
+
+    import sys
+    ...
+    # the number of command line arguments is: len(sys.argv)-1
+    n = int(sys.argv[1])
+
+### call a python script from the command line
+
+If you are in vscode: Click on 'Terminal. If not, under windows: search and open Command Prompt. macos and linux: Open terminal window. Switch (cd) to the directory containing your script or provide the full path of your script. Enter
 
     python3 [yourscript.py] [arguments]
     
 Exit the interactive python3 via quit(). Display the exit value via
  
     python3 [yourscript.py] [arguments]; echo $?
-    
-## 5. Write python3<a name="language"></a>
-
-Cheat Sheets: https://cheatography.com/tag/-python/, https://www.pythoncheatsheet.org/
-
-### Use command line arguments in your python3 script
-
-    import sys
-    ...
-    # the number of command line arguments is: len(sys.argv)-1
-    n = int(sys.argv[1])
     
 ### General structure of Python script that can be imported or reused and also executed from the command line
 
@@ -126,7 +111,7 @@ Cheat Sheets: https://cheatography.com/tag/-python/, https://www.pythoncheatshee
         b = float(sys.argv[2])
         myfunction2(a,b)
  
-### Exit from your python3 script with value 13
+### Exit from your python3 script with exit value 13
 
     import sys
     ...
@@ -214,21 +199,14 @@ creates a file log.profiler that contains information about the cpu time spent i
     # displaying animation with auto play and looping
     animation.ipython_display(fps = 20, loop = True, autoplay = True)
     
-### Introduction to Python classes and related 
+### python classes and related 
 
 https://www.youtube.com/watch?v=ZDa-Z5JzLYM
     
-## 6. Collaboration tool: GitHub<a name="github"></a>
-
-Create your personal GitHub account at www.github.com
-
-Check your settings like email notifactions etc. under 'Settings'. A helpful video explaining some GitHub features is available [here at youtube](https://www.youtube.com/watch?v=iqW_yzZkU_8).
     
-## 7. Install vscode (and git), write and Run python3 scripts in vscode<a name="vscode"></a>
+## vscode live share<a name="vscode"></a>
  
- Install vscode (Visual Studio Code) from https://code.visualstudio.com/download after you have installed python as described above. Choose 'add to path' during installation. Start vscode, 
- 1. click on the Extensions symbol in the left taskbar (Crtl-shift-X). Search for python, press return. Choose python from Microsoft, install.
- 2. for later use with GitHub classroom, also install the following extensions: "vscode live share" and "github pull requests and issues extension". 
+ 2. install the following vscode extension "vscode live share" 
  3. Click on Terminal. Type in and execute the following command in the Terminal: conda install git. Follow the installation instructions to install git. To check the successful installation, run this command within the Terminal: git --version. 
  4. Choose File, New File, Select File type python (if it exists) or choose text file (and afterwards follow: Select a Language, select python. If python is not in the list, press crtl-shift-p and search for python: interpreter, and select from the list). Choose a file location and name. 
  5. Press Run (press the triangle) or Run+Debug or enter a python command in the TERMINAL. The output is shown in the TERMINAL and/or OUTPUT. 
@@ -278,15 +256,11 @@ To be able to edit your python scripts simultaneously with group members and to 
 3. All group members can now edit the python script at Overleaf at any time, also simultaneously. The Chat and Review features of Overleaf can be used to leave comments. 
 4. To be able to execute your code.py online, you need to invite the lecturer to your project. The code can afterwards be executed at [CTL-code-expert](https://ctl.polyphys.mat.ethz.ch/cgi-bin/CTL-code-expert). The CTL-code-expert allows everybody to just execute your code (but not read or change it) and to specify parameters. It is certainly less convenient than editing and executing python via vscode, from the command line, or using another python editor. While error messages are displayed, graphics must be saved on file(s) (as described [above](#graphics)) to to get displayed. 
     
-## How to: install git
+### check if git is installed
 
-You can install git from within vscode, see [here](#vscode). Or install git from https://git-scm.com/download
+You can install git from within vscode, see [here](#vscode). Or install git from https://git-scm.com/download. Check your git installation by opening a terminal, and enter: git --version
 
-## 11. Collaboration tool: Write and Run Matlab<a name=matlab></a>
-
-Assignments can also be completed using other programming languages such as Matlab. To work with Matlab in a group consider using MATLAB Drive (it is very similat to polybox or dropbox). You need to have an account at www.mathworks.com. Login into this account through the website and search for MATLAB Drive, and install it. You can then share your files within a dedicated directory with group members. 
-
-## 12. Where to get help<a name=help></a>
+## Where to get help<a name=help></a>
 
 ### Frequently asked questions and answers are collected [here](https://github.com/ETH-Computational-Thinking-Lab/CTL-FAQ/blob/main/README.md)
 
@@ -294,23 +268,13 @@ Assignments can also be completed using other programming languages such as Matl
 
 Watch Esthi's [videos](#esthi), or read the above instructions, or contact an assistant
 
-### Help with Overleaf or CTL-code-expert
-
-Contact the lecturer
-
-### Help with designing your algorithm
-
-Contact lecturer or assistant(s). 
-
 ### Help with debugging your python code
 
 There are various options (email addresses available from the course page)
 1. Send an email. 
-2. Leave a message in the Discussion section of your group at [ETH-Computational-Thinking-Lab/teams](https://github.com/orgs/ETH-Computational-Thinking-Lab/teams). 
 3. If you have vscode + live share installed, send us an invitation as described [above](#liveshare) or arrange a date with any of us by email or through 'Discussion' 
-4. If you are editing your code at Overleaf, invite us to your Overleaf project as described [above](#overleaf), and if done so already, write in the Overleaf chat, or contact us. 
 
-## 13. Esthi's CTL video channel <a name=esthi></a>
+### Esthi's CTL video channel <a name=esthi></a>
 
 created by our supporter Yu Hoeun (Esthi) is useful for all those who prefer to watch animated instructions: 
 
