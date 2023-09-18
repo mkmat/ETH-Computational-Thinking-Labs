@@ -52,7 +52,7 @@ You will receive an invitation for each assignment by email. Accept the assignme
 
 ### deal with classroom assignments in [vscode](#vscode)
  
-Start [vscode](#vscode). To manage your classroom assignments, click the GitHub symbol in the left taskbar, sign in to GitHub. To find your classroom assignment, click on the GitHub symbol in the vscode menu bar on the left. Select and open your assignment, find your files, edit them or create a new file. To commit your changes, click the Source Control icon (Crtl-Shift-G). Always leave a message for your commits. To see the rendered markdown README.md, click on README.md (or your own md-file), and then crtl+K followed by V. To see if your committed changes in VS code have been transferred to github, visit your corresponding repository at Github, and check the time stamp of the modified file (or its content). 
+Start [vscode](#vscode). To manage your classroom assignments, click the GitHub symbol in the left taskbar, sign in to GitHub. To find your classroom assignment, click on the GitHub symbol in the vscode menu bar on the left. Select and open your assignment, find your files, edit them or create a new file. To commit your changes, save your file, then click the Source Control icon (Crtl-Shift-G). Leave a message for your commit. To see the rendered markdown README.md, click on README.md (or your own md-file), and then crtl+K followed by V. To see if your committed changes in VS code have been transferred to github, visit your corresponding repository at Github, and check the time stamp of the modified file (or its content). 
  
 ### deal with classroom assignments at [GitHub](#github)
 
