@@ -32,14 +32,27 @@ The following instructions reflect our recommendations on how to install a funct
 
 If you encounter any problems during the installation process, do not hesitate to reach out to us via email or approach us in person. We can try to assist you via email or arrange a one on one meeting.
 
+Additional steps that can be done during the CTL lecture:
+
+1. Open a Terminal in VS code as described above. Type python --version (enter), and git --version (enter) to see if python and git are installed.
+2. To finish the git configuration, execute the following commands within the Terminal, where you have to choose a XXX name (no blanks or special characters), and enter your email address:
+   
+     git config --global user.name "XXX"
+   
+     git config --global user.email XXX@YYY
+
+4. Within VS Code. Choose File and New File from the menu bar. Select 'Python file' from the options. Enter a command like print("hello"), and then press the small triangle in the top right corner of the VS code window to save (with extension .py) and run your python file.
+5. Within VS code, close Folder (if you have an open folder), then click the Github symbol <img src="http://ctl.polyphys.mat.ethz.ch/snapshots/Capture-vscode-symbol-classroom.png" width="2%">. You should see the classroom folder.
+
+
 ## 2. classroom assignments<a name="assignments"></a>
 
 ### accept an assignment and become member of a group
-You will receive an invitation for each assignment by email. Accept the assignment and choose from the existing groups, if you'd like to join any of the existing groups, or create a new group (with a science/lecture-related name, no special characters, no blanks). Upon acceptance, you will find a new repository in your personal GitHub account. See [below](#github) if you don't have a GitHub account yet. If you cannot find any place in any of the existing groups and want to create a new group, while the maximum number of groups has been reached already, please send an email. 
+You will receive an invitation for each assignment by email. Accept the assignment and choose from the existing groups, if you'd like to join any of the existing groups, or create a new group (with a science/lecture-related name, no special characters, no blanks). Upon acceptance, you will find a new repository in your personal GitHub account. If you cannot find any place in any of the existing groups and want to create a new group, while the maximum number of groups has been reached already, please send an email. To check if it worked, login to www.github.com, click your github symbol. Check your profile. Check if you are member of the CTL organization and member of a group. If not, contact us.
 
 ### deal with classroom assignments in [vscode](#vscode)
  
-Start [vscode](#vscode). To manage your classroom assignments, click the GitHub symbol in the left taskbar, sign in to GitHub. To find your classroom assignment, click on the GitHub symbol in the vscode menu bar on the left. Select and open your assignment, find your files, edit them or create a new file. To commit your changes, click the Source Control icon (Crtl-Shift-G). Always leave a message for your commits. To see the rendered markdown README.md, click on README.md (or your own md-file), and then crtl+K followed by V. 
+Start [vscode](#vscode). To manage your classroom assignments, click the GitHub symbol in the left taskbar, sign in to GitHub. To find your classroom assignment, click on the GitHub symbol in the vscode menu bar on the left. Select and open your assignment, find your files, edit them or create a new file. To commit your changes, click the Source Control icon (Crtl-Shift-G). Always leave a message for your commits. To see the rendered markdown README.md, click on README.md (or your own md-file), and then crtl+K followed by V. To see if your committed changes in VS code have been transferred to github, visit your corresponding repository at Github, and check the time stamp of the modified file (or its content). 
  
 ### deal with classroom assignments at [GitHub](#github)
 
