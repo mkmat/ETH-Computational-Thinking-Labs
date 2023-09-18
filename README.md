@@ -30,6 +30,8 @@ The following instructions reflect our recommendations on how to install a funct
 10. Within VS Code, click on the (well known) Extensions symbol in the menu bar on the left, and search for "Python" (from Microsoft). Click 'install'.
 11. You successfully completed the whole setup and can close VS Code and anaconda. You have now installed: anaconda, python, git, VS Code, and you have a github account, and are ready to accept a classroom assignment.
 
+If you would like some additional guidance during the installation process, we recommend the following two videos for installing anaconda (https://www.youtube.com/watch?v=xfAcErzOKN4) and VS Code (https://www.youtube.com/watch?v=HvAjnpA6mlA). The creator, Luke Barousse, uses many similar tools and a very similar installation process. However, the installation of github is not covered in these videos (points 6 through 9 above). If you are interested in a more thorough introduction to VS Code, we can recommend the following video (https://www.youtube.com/watch?v=UuwlySU7Hjg) from the same series.
+
 If you encounter any problems during the installation process, do not hesitate to reach out to us via email or approach us in person. We can try to assist you via email or arrange a one on one meeting.
 
 Additional steps that can be done during the first CTL lecture, after having accepted your first classroom assignment. 
