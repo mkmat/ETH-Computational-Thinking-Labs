@@ -32,7 +32,7 @@ The following instructions reflect our recommendations on how to install a funct
 
 If you encounter any problems during the installation process, do not hesitate to reach out to us via email or approach us in person. We can try to assist you via email or arrange a one on one meeting.
 
-Additional steps that can be done during the CTL lecture:
+Additional steps that can be done during the first CTL lecture, after having accepted your first classroom assignment. 
 
 1. Open a Terminal in VS code as described above. Type python --version (enter), and git --version (enter) to see if python and git are installed.
 2. To finish the git configuration, execute the following commands within the Terminal, where you have to choose a XXX name (no blanks or special characters), and enter your email address:
