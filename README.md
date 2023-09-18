@@ -10,7 +10,7 @@
 
 All relevant links for this course are collected at a single website: https://ctl.polyphys.mat.ethz.ch/, which you may bookmark. 
 
-### get a [Github] account<a name="github">
+### get a Github account<a name="github">
 
 Visit www.github.com and sign in, if you have already an account, or Sign up and create an account. You can choose your institutional email address to create an account. Check your settings like email notifactions etc. under 'Settings'.  
 
