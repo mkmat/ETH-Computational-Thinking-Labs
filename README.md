@@ -236,6 +236,19 @@ Start vscode. Press ctrl-alt-p and search for: python: select interpreter. Choos
 ### Working simultaneously on a python file in vscode
  
  In vscode, click the Live Share icon in the left taskbar. Click Share to share the file or folder you are editing. Follow the instruction and send the invitation to one or more group members, assistants, lecturer (email, skype etc). You can allow the invited person to read only or to edit your file. If you are receiving the invitation, follow the link and accept the invitation (you can join either by the vscode web interface or by your locally installed vscode). The inviting person will then let you in. You can add comments to the open files, chat etc. and change the file if you have the permission. 
+
+## Presentations
+
+Towards the end of the semester, each group presents its work during a 8 minutes talk. During these 8 minutes, group members should equally contribute to the presentation. The presentation should include the following:  
+
+1. how did the group work together (communication channel)
+2. how did we approach the problems stated by the assignments (ideas)
+3. did we encounter problems, and eventually solved them, and how?
+4. how have individual functions been tested (example)?
+5. how did we test the code?
+6. Selected results obtained with the codes
+
+Collect all your slides on one of your laptops, and save the presentation also on a stick (or at one of your github repositories).  
          
 ## Frequently asked questions and answers are collected [here](https://github.com/ETH-Computational-Thinking-Lab/CTL-FAQ/blob/main/README.md)
 
