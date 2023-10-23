@@ -64,13 +64,13 @@ Once you accepted an assignment, you will find a new repository in your personal
 ### pull requests (avoid, if possible)
 After editing a python script or markdown file, you commit your changes directly to the main branch and update the file or create a branch and pull request. If you go for a pull reuqest, leave a comment in the pull request if you have any particular question. Open pull requests are mentioned in the menu bar of your assignment. If you are assigned to review a pull request (most likely by email), or if you have the permission to review it, you can reject or merge a pull request to finally update the current script. At the 'branches' tab you can find the existing active branches, and also delete them, if they had been taken care of already. 
  
-### report.md<a name="report">
+### report.md<a name="report"></a>
 
 All information about a project other than the script itself, such as goals, ideas, problems, results should be collected in the file report.md located at your GitHub assignment. All group members should be enabled to edit report.md. md-files are interpreted using the Markdown syntax at GitHub. A quick reference to the Markdown syntax is available at  https://www.markdownguide.org/cheat-sheet/. To watch the report.md side-by-side with your code, split the window (top right), click on the report.md and press crtl+K followed by V to render the markdown file properly.  To add an image to the report.md file, first upload the image file (say, myfile.png) to your repository. Then edit the report.md file and add
 
     <img src="myfile.png" width=50%>
 
-## 3. python  <a name="python">
+## 3. python  <a name="python"></a>
 
 Cheat Sheets: https://cheatography.com/tag/-python/, https://www.pythoncheatsheet.org/
 
@@ -239,7 +239,7 @@ Start vscode. Press ctrl-alt-p and search for: python: select interpreter. Choos
  
  In vscode, click the Live Share icon in the left taskbar. Click Share to share the file or folder you are editing. Follow the instruction and send the invitation to one or more group members, assistants, lecturer (email, skype etc). You can allow the invited person to read only or to edit your file. If you are receiving the invitation, follow the link and accept the invitation (you can join either by the vscode web interface or by your locally installed vscode). The inviting person will then let you in. You can add comments to the open files, chat etc. and change the file if you have the permission. 
 
-## 5. Presentations<a name="presentation">
+## 5. Presentations<a name="presentation"></a>
 
 Towards the end of the semester, each group presents its work during a 8 minutes talk. During these 8 minutes, group members should equally contribute to the presentation. The presentation should include the following:  
 
