@@ -251,6 +251,11 @@ Towards the end of the semester, each group presents its work during a 8 minutes
 6. Selected results obtained with the codes
 7. If you like: Criticism, suggestions for improvements
 
+DO NOT: 
+
+1. repeat the task descriptions
+2. show your code (only a few lines, if meaningful)
+
 Collect all your slides on one of your laptops, and save the presentation also on a stick (or at one of your github repositories).  
          
 ## 6. Frequently asked questions and answers are collected [here](https://github.com/ETH-Computational-Thinking-Lab/CTL-FAQ/blob/main/README.md) <a name="FAQ">
