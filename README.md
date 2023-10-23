@@ -64,7 +64,7 @@ After editing a python script or markdown file, you commit your changes directly
  
 ### report.md
 
-All information about a project other than the script itself, such as goals, ideas, results should be collected in the file report.md located at your GitHub assignment. All group members should be enabled to edit report.md. md-files are interpreted using the Markdown syntax at GitHub. A quick reference to the Markdown syntax is available at  https://www.markdownguide.org/cheat-sheet/. To watch the report.md side-by-side with your code, split the window (top right), click on the report.md and press crtl+K followed by V to render the markdown file properly.  
+All information about a project other than the script itself, such as goals, ideas, problems, results should be collected in the file report.md located at your GitHub assignment. All group members should be enabled to edit report.md. md-files are interpreted using the Markdown syntax at GitHub. A quick reference to the Markdown syntax is available at  https://www.markdownguide.org/cheat-sheet/. To watch the report.md side-by-side with your code, split the window (top right), click on the report.md and press crtl+K followed by V to render the markdown file properly.  
 
 ## 3. python  <a name="python">
 
