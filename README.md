@@ -97,7 +97,7 @@ Exit the interactive python3 via quit(). Display the exit value via
     
 ### General structure of Python script that can be imported or reused and also executed from the command line
 
-    import sys
+    from sys import argv
 
     def myfunction1 (a):
         print("first (integer) argument is "+str(a))
@@ -108,12 +108,12 @@ Exit the interactive python3 via quit(). Display the exit value via
     
     # do the following if called from the command line
 
-    if len(sys.argv)-1==1:
-        a = int(sys.argv[1])
+    if len(argv)-1==1:
+        a = int(argv[1])
         myfunction1(a)
-    elif len(sys.argv)-1==2:
-        a = int(sys.argv[1])
-        b = float(sys.argv[2])
+    elif len(argv)-1==2:
+        a = int(argv[1])
+        b = float(argv[2])
         myfunction2(a,b)
  
 ### Exit from your python3 script with exit value 13
