@@ -7,7 +7,7 @@
 5. [Presentations](#presentation)
 6. [Frequently asked questions](#FAQ)
 
-## 1. getting started<a name="start"></a>
+## 1. getting started<a name="start"></a>  
 
 All relevant links for this course are collected at a single website: https://ctl.polyphys.mat.ethz.ch/, which you may bookmark. 
 
