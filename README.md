@@ -37,12 +37,14 @@ If you encounter any problems during the installation process, do not hesitate t
 
 Additional steps that can be done during the first CTL lecture, after having accepted your first classroom assignment. 
 
-1. Open a Terminal in VS code as described above. Type python --version (enter), and git --version (enter) to see if python and git are installed.
-2. To finish the git configuration, execute the following commands within the Terminal, where you have to choose a XXX name (no blanks or special characters), and enter your email address:
+1. Open a Terminal in VS code as described above. Type python --version (enter), and git --version (enter) to see if python and git are installed. If either command procudes an error, please consult with the professor or teaching assistants.
+2. To finish the git configuration, execute the following commands within the Terminal, where you have to provide your account name from github, and enter your associated email address:
    
      git config --global user.name "XXX"
    
-     git config --global user.email XXX@YYY
+     git config --global user.email "XXX@YYY"
+
+     git config --global pull.rebase false
 
 4. Within VS Code. Choose File and New File from the menu bar. Select 'Python file' from the options. Enter a command like print("hello"), and then press the small triangle in the top right corner of the VS code window to save (with extension .py) and run your python file.
 5. Within VS code, close Folder (if you have an open folder), then click the Github symbol <img src="http://ctl.polyphys.mat.ethz.ch/snapshots/Capture-vscode-symbol-classroom.png" width="2%">. You should see the classroom folder.
