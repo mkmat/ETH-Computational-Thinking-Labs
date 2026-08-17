@@ -49,22 +49,9 @@ Additional steps that can be done during the first CTL lecture, after having acc
 4. Within VS Code. Choose File and New File from the menu bar. Select 'Python file' from the options. Enter a command like print("hello"), and then press the small triangle in the top right corner of the VS code window to save (with extension .py) and run your python file.
 5. Within VS code, close Folder (if you have an open folder), then click the Github symbol <img src="http://ctl.polyphys.mat.ethz.ch/snapshots/Capture-vscode-symbol-classroom.png" width="2%">. You should see the classroom folder.
 
-
 ## 2. classroom assignments<a name="assignments"></a>
 
-### accept an assignment and become member of a group
-You will receive an invitation for each assignment by email. Accept the assignment and choose from the existing groups, if you'd like to join any of the existing groups, or create a new group (with a science/lecture-related name, no special characters, no blanks). Upon acceptance, you will find a new repository in your personal GitHub account. If you cannot find any place in any of the existing groups and want to create a new group, while the maximum number of groups has been reached already, please send an email. To check if it worked, login to www.github.com, click your github symbol. Check your profile. Check if you are member of the CTL organization and member of a group. If not, contact us.
-
-### deal with classroom assignments in [vscode](#vscode)
- 
-Start [vscode](#vscode). To manage your classroom assignments, click the GitHub symbol in the left taskbar, sign in to GitHub. To find your classroom assignment, click on the GitHub symbol in the vscode menu bar on the left. Select and open your assignment, find your files (click on the folder symbol after the assignment to open the folder), edit them or create a new file (File/New file/choose python). To commit your changes, save your file, then click the Source Control icon (Crtl-Shift-G). Leave a message for your commit. To see the rendered markdown README.md, click on README.md (or your own md-file), and then click 'Open Previes to the Side' (crtl+K followed by V). To see if your committed changes in VS code have been transferred to github, visit your corresponding repository at Github, and check the time stamp of the modified file (or its content). If your classroom folder is visible, but you do not see any files in it, either click the Explorer symbol (crtl-shift+E), or go to File / Close Folder (crtl+K F), and click the github symbol. 
- 
-### deal with classroom assignments at [GitHub](#github)
-
-Once you accepted an assignment, you will find a new repository in your personal GitHub. You do not need to use vscode to edit your codes, you can also edit them directly at GitHub, or clone the directory to a local directory, and edit from there using another software. Make sure to commit your changes directly to the main branch (or create a branch + pull request, if you want your group members or assistants review your changes, and if you know what you are doing). To find back (if needed) your assignment(s) at GitHub, click https://github.com/ETH-Computational-Thinking-Lab and then on the name of the assignment.
-
-### pull requests (avoid, if possible)
-After editing a python script or markdown file, you commit your changes directly to the main branch and update the file or create a branch and pull request. If you go for a pull reuqest, leave a comment in the pull request if you have any particular question. Open pull requests are mentioned in the menu bar of your assignment. If you are assigned to review a pull request (most likely by email), or if you have the permission to review it, you can reject or merge a pull request to finally update the current script. At the 'branches' tab you can find the existing active branches, and also delete them, if they had been taken care of already. 
+All instructions concerning classroom assignmnets are available at <a href="https://ctl.polyphys.mat.ethz.ch/setup">MyCTL</a>
  
 ### report.md<a name="report"></a>
 
