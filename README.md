@@ -11,7 +11,7 @@
 
 All relevant links for this course are collected at a single website: https://ctl.polyphys.mat.ethz.ch/, which you may bookmark. 
 
-The following description is a slightly extended version of the description you find at <a href="https://ctl.polyphys.mat.ethz.ch/setup">MyCTL</a>. 
+The following description is a slightly extended version of the description you find at <a href="https://ctl.polyphys.mat.ethz.ch/setup">MyCTL</a>. At myCTL, which you should visit ideally before the semester starts, or latest during the first week of the semester, you find information about installation procedures, names and GitHub names of your group members, as well as further instructions.  
 
 ### get a Github account<a name="github">
 
