@@ -9,18 +9,54 @@
 
 ## 1. getting started<a name="start"></a>  
 
-All relevant links for this course are collected at a single website: https://ctl.polyphys.mat.ethz.ch/, which you may bookmark. 
+All relevant links for this course are collected at a single website: https://ctl.polyphys.mat.ethz.ch/, which you may bookmark.  
 
 The following description is a slightly extended version of the description you find at <a href="https://ctl.polyphys.mat.ethz.ch/setup">MyCTL</a>. At myCTL, which you should visit ideally before the semester starts, or latest during the first week of the semester, you find information about installation procedures, names and GitHub names of your group members, as well as further instructions.  
 
-### get a Github account<a name="github">
+### get a Github account<a name="github"></a>  
 
-Visit www.github.com and sign in, if you have already an account, or Sign up and create an account. You can choose your institutional email address to create an account. Check your settings like email notifactions etc. under 'Settings'.  
+Visit <www.github.com> and sign in, if you have already an account, or Sign up and create an account. You can choose your institutional email address to create an account. Check your settings like email notifactions etc. under 'Settings'.  
 
-### installations (anaconda, VS code, git, python)<a name="install">
+### installations (anaconda, VS code, git, python)<a name="install"></a>  
 
-The following instructions reflect our recommendations on how to install a functional python environment with git integration in VS Code for working with github. If you already have an environment which meets these requirements, you can ignore the instructions, but understand that we might not be able to provide assistance if you run into problems. Click on the following images if you need to enlarge them.
+The following instructions reflect our recommendations on how to install a functional python environment with git integration in VS Code for working with github. We outline two installation options, one being more manual, but also lighter, while the other installs a larger coding environment, including a number of apps that we do not use. If you already have an environment which meets these requirements, you can ignore the instructions, but understand that we might not be able to provide optimal assistance if you run into problems. Click on the following images if you need to enlarge them.
  
+#### Miniconda
+
+If you prefer a smaller, more hands-on coding environment, we recommend installing python and optionally miniconda. To install miniconda, please follow the instructions on the [anaconda website](https://www.anaconda.com/docs/getting-started/miniconda/system-requirements). *For anaconda installation, please see below.*
+
+- Windows: [<https://www.anaconda.com/docs/getting-started/miniconda/install/windows-gui-install>]
+- Mac: [<https://www.anaconda.com/docs/getting-started/miniconda/install/mac-gui-install>]
+
+Important Notes:
+1. On Windows machines, please make sure to select the "Add Miniconda3 to my PATH environment variable" setting. This will ensure, that other programmes can find the correct python environment.
+2. If you have an intel Mac or would like to simply avoid the registration on the anaconda website, you can find the full list of build packages in their [repository](https://repo.anaconda.com/miniconda/).
+
+<!-- **VS Code:** -->
+Alongside miniconda, please download the latest version of Visual Studio Code
+(VS Code) from the [official download page](https://code.visualstudio.com/Download) and install. Once complete, open VS Code and select "open…", then select or create a folder to use for testing.
+Next, select "New file…", then select "Python File". This will create a temporary python file.
+
+As a final installation step, install git. On Windows, we recommend downloading it from the [official website](https://git-scm.com/install/). On Mac, the best option is through Xcode Command Line Tools through terminal or you will be prompted automatically the first time you try to use it. For manual installation, open the App Terminal or open VS Code then select Terminal>New Terminal. Here type "xcode-select --install" and follow the instructions on screen. This will often take a few minutes to complete.
+
+- Windows: <https://git-scm.com/install/windows>
+- Mac: <https://developer.apple.com/documentation/xcode/installing-the-command-line-tools>
+
+<!-- **Verifying installation:** -->
+After opening a python file in VS Code, please check the python version in the bottom right corner of the editor. There you should find a number similar to "3.xx.xx (base)". 
+Next, try running a simple "print('Hello World!')". To run code, you can select the play button in the top right corner of your VS Code window, which will prompt you to save the file if you have not done so already. However, remember to save the file every time you insert new code, otherwise VS Code will run the last save.
+
+
+#### Anaconda
+
+If you want a hands-off, complete installation, choose anaconda. *Miniconda instructions above.*
+
+Important Notes:
+1. On Windows machines, please make sure to select the "Add Anaconda3 to my PATH environment variable" setting. This will ensure, that other programmes can find the correct python environment.
+2. If you have an intel Mac or would like to simply avoid the registration on the anaconda website, you can find the full list of build packages in their [repository](https://repo.anaconda.com/archive/).
+
+Installation instructions:
+
 1. Check, if you have anaconda (or miniconda) installed already. If so, start the anaconda navigator and check if VS Code is one of the existing applications <img src="http://ctl.polyphys.mat.ethz.ch/snapshots/Capture-anaconda-check-for-vscode.png" width="3%"> (or search for visual studio code/VS Code/vscode on your computer). If both are true, continue at 5. If you are missing VS Code in your anaconda navigator, close the navigator and continue at 3. Otherwise continue.
 2. You have neither anaconda nor miniconda installed. Install anaconda 2.4.3 or later (not miniconda) from https://anaconda.com/download (Requires 5GB of disk space. Additional information at https://docs.anaconda.com/free/anaconda/install). Once installed successfully, start the anaconda navigator (You do not need to create an anaconda cloud account and can skip this question). Check if VS Code is an installed application <img src="http://ctl.polyphys.mat.ethz.ch/snapshots/Capture-anaconda-check-for-vscode.png" width="3%">, if you cannot find the VS Code symbol in the list, then you need to close the anaconda navigator and continue at 3. Otherwise launch VS Code and continue at 5.
 3. You need to install VS Code, hence visit http://code.visualstudio.com/download and download and install VS Code. When asked for, choose "Add to PATH", which is the default. Once installed, do not start VS Code or exit if you opened it already (On MacOS you should move the application from your download folder to your applications folder).
