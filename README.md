@@ -25,14 +25,14 @@ Important Notes:
 1. On Windows machines, please make sure to select the "Add Miniconda3 to my PATH environment variable" or "Add Anaconda3 to my PATH environment variable" setting during the installation process, and not the other options. This will ensure, that other programmes can find the correct python environment.
 2. If you have an intel Mac or would like to simply avoid the registration on the anaconda website, you can find the full list of build packages in the following repositories: [miniconda](https://repo.anaconda.com/miniconda/), and [anaconda](https://repo.anaconda.com/archive/).
 
-#### Miniconda
+#### Option 1: Miniconda
 
 We recommend installing python and optionally miniconda, especially if you prefer a smaller, more hands-on coding environment. To install miniconda, please follow the instructions on the [anaconda website](https://www.anaconda.com/docs/getting-started/miniconda/system-requirements). *For anaconda installation, please see below.*
 
 - Windows: [<https://www.anaconda.com/docs/getting-started/miniconda/install/windows-gui-install>]
 - Mac: [<https://www.anaconda.com/docs/getting-started/miniconda/install/mac-gui-install>]
 
-#### Anaconda
+#### Option 2: Anaconda
 
 If you want a hands-off, complete installation, choose anaconda. *Miniconda instructions above.*
 
