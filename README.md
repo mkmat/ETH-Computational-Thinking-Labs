@@ -278,33 +278,4 @@ Collect all your slides on one of your laptops, and save the presentation also o
          
 ## 6. Frequently asked questions and answers are collected [here](https://github.com/ETH-Computational-Thinking-Lab/CTL-FAQ/blob/main/README.md) <a name="FAQ">
 
-## Old Installation Instructions
 
-1. Check, if you have anaconda (or miniconda) installed already. If so, start the anaconda navigator and check if VS Code is one of the existing applications <img src="http://ctl.polyphys.mat.ethz.ch/snapshots/Capture-anaconda-check-for-vscode.png" width="3%"> (or search for visual studio code/VS Code/vscode on your computer). If both are true, continue at 5. If you are missing VS Code in your anaconda navigator, close the navigator and continue at 3. Otherwise continue.
-2. You have neither anaconda nor miniconda installed. Install anaconda 2.4.3 or later (not miniconda) from https://anaconda.com/download (Requires 5GB of disk space. Additional information at https://docs.anaconda.com/free/anaconda/install). Once installed successfully, start the anaconda navigator (You do not need to create an anaconda cloud account and can skip this question). Check if VS Code is an installed application <img src="http://ctl.polyphys.mat.ethz.ch/snapshots/Capture-anaconda-check-for-vscode.png" width="3%">, if you cannot find the VS Code symbol in the list, then you need to close the anaconda navigator and continue at 3. Otherwise launch VS Code and continue at 5.
-3. You need to install VS Code, hence visit http://code.visualstudio.com/download and download and install VS Code. When asked for, choose "Add to PATH", which is the default. Once installed, do not start VS Code or exit if you opened it already (On MacOS you should move the application from your download folder to your applications folder).
-4. Now start the anaconda navigator again. You should have VS Code in the list of applications. Launch VS Code. Just in case you have several versions of python installed (older versions, from a previous install): you might need to manually link the python extension with the python installation from anaconda (or miniconda). The walkthrough on the VS code start screen will prompt you to select the interpreter, if you indeed have several versions installed, otherwise not. Simply choose the option containing "('base')" which is the default installation for anaconda (and miniconda).
-5. Within VS Code, open a terminal from the top menu bar <img src="http://ctl.polyphys.mat.ethz.ch/snapshots/Capture-vscode-top-menu.png" width="20%"> . Click into the terminal window, write "conda install git" <img src="http://ctl.polyphys.mat.ethz.ch/snapshots/Capture-vscode-terminal-window.png" width="30%"> and press enter. Answer questions with yes, if there are any. 
-6. Within VS Code, click on the Extensions symbol <img src="http://ctl.polyphys.mat.ethz.ch/snapshots/Capture-vscode-symbol-extensions.png" width="2%"> in the menu bar on the left, and search for "Github Pull Requests and Issues". <img src="http://ctl.polyphys.mat.ethz.ch/snapshots/Capture-vscode-extensions-pull-requests.png" width="30%"> Click the blue 'install' buttom (in the screenshot it is not visible as I have it already installed), and once installed, close the VS Code application.
-7. Start VS Code again. This time, you should see a blue (1) at the accounts symbol <img src="http://ctl.polyphys.mat.ethz.ch/snapshots/Capture-vscode-symbol-github.png" width="2%"> in the menu bar on the left. Click on it, and choose "Sign in with Github ..". If nothing works, be patient, check if there are more than one VS Code screen open now, and eventually choose one of the options (like local server) that are offered to sign in. Once you are signed in, the blue (1) does not appear anymore, and if you press the accounts symbol again, it should show your github name.the lecture.
-8. In some cases, VS Code asks you again (blue 1 at the accounts symbol <img src="http://ctl.polyphys.mat.ethz.ch/snapshots/Capture-vscode-symbol-github.png" width="2%">) for permission to connect with github.
-9. Within VS Code, click on the (well known) Extensions symbol in the menu bar on the left, and search for "Python" (from Microsoft). Click 'install'. To verify the installation you should follow along with the last three minutes of this video (https://youtu.be/HvAjnpA6mlA?t=282). Having installed anaconda you should also select the interpreter called 'base'. We will check in the first lecture if you can successfully print text to the command line. 
-10. Done! You successfully completed the whole setup and can close VS Code and anaconda. You have now installed: anaconda, python, git, VS Code, and you have a github account, and are ready to accept a classroom assignment.
-
-If you would like some additional guidance during the installation process, we recommend the following two videos for installing anaconda (https://www.youtube.com/watch?v=xfAcErzOKN4) and VS Code (https://www.youtube.com/watch?v=HvAjnpA6mlA). The creator, Luke Barousse, uses many similar tools and a very similar installation process. However, the installation of github is not covered in these videos (points 6 through 9 above). If you are interested in a more thorough introduction to VS Code, we can recommend the following video (https://www.youtube.com/watch?v=UuwlySU7Hjg) from the same series.
-
-If you encounter any problems during the installation process, do not hesitate to reach out to us via email or approach us in person. We can try to assist you via email or arrange a one on one meeting.
-
-Additional steps that can be done during the first CTL lecture, after having accepted your first classroom assignment. 
-
-1. Open a Terminal in VS code as described above. Type python --version (enter), and git --version (enter) to see if python and git are installed. If either command procudes an error, please consult with the professor or teaching assistants.
-2. To finish the git configuration, execute the following commands within the Terminal, where you have to provide your account name from github, and enter your associated email address:
-   
-     git config --global user.name "XXX"
-   
-     git config --global user.email "XXX@YYY"
-
-     git config --global pull.rebase false
-
-4. Within VS Code. Choose File and New File from the menu bar. Select 'Python file' from the options. Enter a command like print("hello"), and then press the small triangle in the top right corner of the VS code window to save (with extension .py) and run your python file.
-5. Within VS code, close Folder (if you have an open folder), then click the Github symbol <img src="http://ctl.polyphys.mat.ethz.ch/snapshots/Capture-vscode-symbol-classroom.png" width="2%">. You should see the classroom folder.
